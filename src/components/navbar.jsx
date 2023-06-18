@@ -39,12 +39,30 @@ img{
   height: 20px;
 }
 a {
+  
   text-decoration: none;
-  color: inherit;
-  transition: all 1s ease;
-  &:hover {
-    background-color: black;
-    color: red;
+  position: relative;
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: red;
+    transition: height 1s;
+    z-index: -1;
+  }
+
+  &:hover::before {
+    height: 100%;
   }
 }
 `;

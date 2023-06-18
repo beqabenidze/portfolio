@@ -2,8 +2,8 @@ import React from "react";
 import { ThemeProvider } from "styled-components";
 import GlobalStyles from "./styled-components/GlobalStyles";
 import Navbar from "./components/navbar";
-import About from "./pages/about";
-import Home from "./pages/home";
+import About from "./components/about";
+import Home from "./components/home";
 import { Context } from "./context";
 import { Routes, Route } from "react-router-dom";
 import { Helmet } from "react-helmet";
@@ -27,8 +27,8 @@ function App() {
           </Helmet>
         <Navbar />
         <Routes>
-            {/* <Route path="/" element={<Home />} /> */}
-            <Route path="/about" element={<About />} />
+            <Route path="/" element={<Home />} />
+            {/* <Route path="/about" element={<About />} /> */}
           </Routes>
       </ThemeProvider>
     </Context.Provider>
