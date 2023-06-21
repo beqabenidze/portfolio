@@ -5,7 +5,8 @@ const GlobalStyles = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing:border-box;
-        font-family: 'Gasoek One', sans-serif;
+        font-family: 'Nova Round', cursive;
+    
     }
     body{
         background-color: ${(props) => props.theme.background};
@@ -13,10 +14,19 @@ const GlobalStyles = createGlobalStyle`
         min-height: 100vh;
         display: flex;
         justify-content: center;
-        padding: 10px;
+       overflow-x: hidden;
     }
     #root{
         width: 100%;
+        
+    }
+    ::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+    }
+        ::-webkit-scrollbar-thumb {
+        background-color: #b2c0b2;
+        border-radius: 10px;
     }
 `;
 

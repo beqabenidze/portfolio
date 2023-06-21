@@ -14,6 +14,7 @@
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-router-dom": "^6.13.0",
+    "react-scroll": "^1.8.9",
     "styled-components": "^6.0.0-rc.3",
     "vite-plugin-react-pages": "^4.1.3"
   },
