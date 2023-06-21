@@ -7,8 +7,8 @@ import { Link, animateScroll as scroll } from "react-scroll";
 const navbar = [
   { name: "About", active: false },
   { name: "Skills", active: false },
-  { name: "Honor", active: false },
-  { name: "Certifications", active: false },
+  { name: "works", active: false },
+  { name: "Contact", active: false },
 ];
 
 function Navbar() {
@@ -19,9 +19,9 @@ function Navbar() {
         {navbar.map((item) => {
           return (
             <Link
-              to={`/${item.name}`}
+              to={item.name}
               smooth={true}
-              duration={500}
+              duration={2000}
               key={Math.random()}
             >
               {item.name}

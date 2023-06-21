@@ -4,7 +4,7 @@ import code from "../assets/Annotation 2023-06-17 093443.png";
 
 const About = () => {
   return (
-    <AboutWrapper>
+    <AboutWrapper id="About">
       <ImgWrapper>
         <img src={code} />
       </ImgWrapper>
