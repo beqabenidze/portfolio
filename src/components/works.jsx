@@ -114,7 +114,6 @@ const WorkWrapper = styled.div`
   display: flex;
   flex-direction: column;
   width: 100vw;
-
   h1 {
     margin: 20px;
   }

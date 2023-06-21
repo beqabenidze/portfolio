@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-
 import logo from "../assets/Annotation 2023-06-17 103328.png";
 import { Link, animateScroll as scroll } from "react-scroll";
 
@@ -21,7 +20,7 @@ function Navbar() {
             <Link
               to={item.name}
               smooth={true}
-              duration={2000}
+              duration={1800}
               key={Math.random()}
             >
               {item.name}

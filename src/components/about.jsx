@@ -1,6 +1,6 @@
 import React from "react";
 import { styled } from "styled-components";
-import code from "../assets/Annotation 2023-06-17 093443.png";
+import code from "../assets/me.png";
 
 const About = () => {
   return (
@@ -13,10 +13,11 @@ const About = () => {
         <h1>Beqa Benidze</h1>
         <h4>Forntend developer</h4>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-          exercitationem, doloribus facilis suscipit sequi voluptatibus debitis
-          illum ratione natus voluptate temporibus! Cupiditate, deleniti quia
-          aut id voluptate officia laudantium! Maxime.
+          Passionate self-learning developer with expertise in JavaScript, React
+          and other frameworks. Dedicated to continuous growth, problem-solving,
+          and creating exceptional user experiences. Always exploring new
+          technologies and eager to make a positive impact in the world of
+          software development.
         </p>
       </div>
     </AboutWrapper>

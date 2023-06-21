@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import About from "./about";
 import Contact from "./contact";
+import Footer from "./footer";
 import Navbar from "./navbar";
 import Skills from "./skills";
 import Works from "./works";
@@ -14,6 +15,7 @@ const Home = () => {
       <Skills />
       <Works />
       <Contact />
+      <Footer />
     </HomeWrapper>
   );
 };
