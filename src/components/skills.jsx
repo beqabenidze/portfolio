@@ -9,6 +9,8 @@ import html from "../assets/html.jpg";
 import css from "../assets/css.png";
 import figma from "../assets/figma.png";
 import git from "../assets/git.png";
+import tailwind from "../assets/tailwind.png";
+import vercel from "../assets/vercel.png";
 
 const skills = [
   {
@@ -27,9 +29,19 @@ const skills = [
     info: "Styled-components is a library that allows you to write CSS in JS while building custom components in Reactjs .",
   },
   {
+    name: "Tailwind",
+    src: tailwind,
+    info: "Tailwind CSS is an open source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap.",
+  },
+  {
     name: "NodeJs",
     src: node,
     info: "Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more.",
+  },
+  {
+    name: "Vercel",
+    src: vercel,
+    info: "Vercel Inc., formerly Zeit, is an American cloud platform as a service company. The company maintains the Next.js web development framework.",
   },
   {
     name: "Sass",

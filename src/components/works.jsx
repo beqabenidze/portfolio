@@ -11,6 +11,7 @@ import designo from "../assets/designo.png";
 import FAQ from "../assets/FAQ.png";
 import tictoc from "../assets/tictoc.png";
 import pricing from "../assets/pricing.png";
+import dictionary from "../assets/dictionary.png";
 
 const works = [
   {
@@ -18,6 +19,12 @@ const works = [
     link: "https://beqabenidze.github.io/Kanban/",
     code: "https://github.com/beqabenidze/Kanban",
     img: kanban,
+  },
+  {
+    name: "Dictionary",
+    link: "https://dictionary-seven-lime.vercel.app/",
+    code: "https://github.com/beqabenidze/dictionary",
+    img: dictionary,
   },
   {
     name: "multi-step-form",
@@ -36,12 +43,6 @@ const works = [
     link: "https://beqabenidze.github.io/DevJobs-web-app/",
     code: "https://github.com/beqabenidze/DevJobs-web-app",
     img: dev,
-  },
-  {
-    name: "calculator",
-    link: "https://beqabenidze.github.io/Tip-Calculator-app/",
-    code: "https://github.com/beqabenidze/Tip-Calculator-app",
-    img: calculator,
   },
   {
     name: "crowdfunding",
@@ -68,10 +69,16 @@ const works = [
     img: FAQ,
   },
   {
-    name: "devJobs",
+    name: "Tic-Tac-Toe",
     link: "lhttps://beqabenidze.github.io/DevJobs-web-app/ink",
     code: "https://github.com/beqabenidze/DevJobs-web-app",
     img: tictoc,
+  },
+  {
+    name: "calculator",
+    link: "https://beqabenidze.github.io/Tip-Calculator-app/",
+    code: "https://github.com/beqabenidze/Tip-Calculator-app",
+    img: calculator,
   },
   {
     name: "pricing component",
