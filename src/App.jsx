@@ -21,7 +21,7 @@ function App() {
       </Helmet>
 
       <Routes>
-        <Route path="/portfolio/" element={<Home />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </ThemeProvider>
   );
