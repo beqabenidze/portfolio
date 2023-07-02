@@ -6,7 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 const defaultTheme = {
-  background: "#dce2e2",
+  background: "red",
 };
 
 function App() {
