@@ -19,7 +19,6 @@ function App() {
           rel="stylesheet"
         />
       </Helmet>
-
       <Routes>
         <Route path="/portfolio/" element={<Home />} />
       </Routes>
