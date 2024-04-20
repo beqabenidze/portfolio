@@ -113,7 +113,7 @@ const SkillsSubWrapper = styled.div`
   padding: 20px;
   aside {
     min-width: 40vw;
-    background-color: #b2c0b2;
+    background-color: #393d39;
     padding: 20px;
     display: grid;
     place-items: center;
@@ -121,6 +121,7 @@ const SkillsSubWrapper = styled.div`
     border-radius: 5px;
     overflow: hidden;
     position: relative;
+    color: #ccc3c3;
     img {
       width: 120px;
       height: 120px;

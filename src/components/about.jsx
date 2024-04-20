@@ -60,7 +60,7 @@ const AboutWrapper = styled.div`
 const ImgWrapper = styled.div`
   width: 500px;
   height: 250px;
-  background-color: #b2c0b2;
+  background-color: #393d39;
   transform: skewY(-10deg);
   position: relative;
   border-radius: 20px;

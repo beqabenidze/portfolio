@@ -21,7 +21,7 @@ const FooterWrapper = styled.div`
   gap: 10px;
   width: 100%;
   padding: 20px;
-  background-color: #b2c0b2;
+  background-color: #393d39;
   h3 {
     text-align: center;
   }

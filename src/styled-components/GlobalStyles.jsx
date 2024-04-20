@@ -6,15 +6,17 @@ const GlobalStyles = createGlobalStyle`
         padding: 0;
         box-sizing:border-box;
         font-family: 'Nova Round', cursive;
+        color: white;
     
     }
     body{
         background-color: ${(props) => props.theme.background};
         width: 100%;
         min-height: 100vh;
+        margin-top: 100px;
         display: flex;
         justify-content: center;
-       overflow-x: hidden;
+        overflow-x: hidden;
     }
     #root{
         width: 100%;
