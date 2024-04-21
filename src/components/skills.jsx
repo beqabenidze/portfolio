@@ -111,6 +111,7 @@ const SkillsSubWrapper = styled.div`
   gap: 10vw;
   overflow-x: auto;
   padding: 20px;
+
   aside {
     min-width: 40vw;
     background-color: #393d39;
@@ -122,6 +123,7 @@ const SkillsSubWrapper = styled.div`
     overflow: hidden;
     position: relative;
     color: #ccc3c3;
+
     img {
       width: 120px;
       height: 120px;

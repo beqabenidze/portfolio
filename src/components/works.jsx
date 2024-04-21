@@ -121,6 +121,7 @@ const WorkWrapper = styled.div`
   display: flex;
   flex-direction: column;
   width: 100vw;
+
   h1 {
     margin: 20px;
   }
@@ -134,11 +135,12 @@ const WorkSubWrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+
   @media only screen and (min-width: 800px) {
     grid-template-columns: 1fr 1fr 1fr;
   }
   div {
-    border: 1px solid #b2c0b2;
+    border: 1px solid #393d39;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -173,12 +175,15 @@ const WorkSubWrapper = styled.div`
         cursor: pointer;
         text-decoration: none;
         color: black;
+
         @media only screen and (min-width: 800px) {
           grid-template-columns: 1fr 1fr 1fr;
           padding: max(8px, 1vw);
         }
         &:hover {
-          background-color: #b2c0b2;
+          background-color: #393d39;
+          color: white;
+          transition: all 1.5s ease;
         }
       }
     }

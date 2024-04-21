@@ -9,9 +9,9 @@ const About = () => {
         <img src={code} />
       </ImgWrapper>
       <div>
-        <h5>Hi, Im</h5>
+        <h2>Hi, Im</h2>
         <h1>Beqa Benidze</h1>
-        <h4>Forntend developer</h4>
+        <h3>Forntend developer</h3>
         <p>
           Passionate self-learning developer with expertise in JavaScript, React
           and other frameworks. Dedicated to continuous growth, problem-solving,
@@ -66,4 +66,5 @@ const ImgWrapper = styled.div`
   border-radius: 20px;
   display: grid;
   place-items: center;
+  box-shadow: 0px 0px 2022px 120px rgba(8, 8, 8, 0.5);
 `;

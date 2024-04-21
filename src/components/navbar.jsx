@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-
+import CV from "../assets/Beka Benidze.pdf";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { useState, useEffect } from "react";
 
@@ -33,15 +33,21 @@ function Navbar() {
     border: `1px solid ${scrollY >= 20 ? "white" : "transparent"}`,
     transition: "all 1.7s ease",
   };
-
+  const link = {
+    backgroundColor: scrollY >= 20 ? "393d39" : "transparent",
+    color: scrollY >= 20 ? "white" : "#393d39",
+    transition: "all 1.2s ease",
+  };
   return (
     <NavbarWrapper style={navbarStyle}>
-      <h2 style={{ cursor: "pointer" }}>CV</h2>
-
+      <a href={CV} target="_blank" style={link}>
+        CV
+      </a>
       <div>
         {navbar.map((item) => {
           return (
             <Link
+              style={link}
               to={item.name}
               smooth={true}
               duration={1800}
@@ -70,46 +76,47 @@ const NavbarWrapper = styled.div`
   position: fixed;
   top: 10px;
   z-index: 3;
+
   div {
     display: flex;
-    gap: 10px;
-
+    gap: 20px;
     :hover {
-      background-color: #b2c0b2;
-      transition: 0.5s;
-      border-radius: 5px;
+      color: white;
+      background-color: #393d39;
+      transition: all 1.2s ease;
     }
   }
-  img {
-    width: 30px;
-    height: 30px;
-    border-radius: 3px;
-  }
+
   a {
     font-size: max(10px, 1vw);
     text-decoration: none;
     position: relative;
-    padding: 10px;
-    background-color: #fff;
-    color: #000;
-    border: none;
-    cursor: pointer;
-    overflow: hidden;
+    padding: 10px 30px;
+    background-color: transparent;
 
+    cursor: pointer;
+
+    font-weight: 600;
+    :hover {
+      background-color: #fff;
+    }
     &::before {
       content: "";
       position: absolute;
       bottom: 0;
-      left: 0;
-      width: 100%;
+      left: 50%;
+      width: 0;
       height: 0;
-      background-color: red;
-      transition: height 1s;
+      background-color: white;
+      transition: all 1.2s ease;
       z-index: -1;
     }
 
     &:hover::before {
       height: 100%;
+      width: 100%;
+      left: 0;
+      border-radius: 80px;
     }
   }
 `;
