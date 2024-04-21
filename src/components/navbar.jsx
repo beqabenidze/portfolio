@@ -34,7 +34,7 @@ function Navbar() {
     transition: "all 1.7s ease",
   };
   const link = {
-    backgroundColor: scrollY >= 20 ? "393d39" : "transparent",
+    backgroundColor: scrollY >= 20 ? "" : "transparent",
     color: scrollY >= 20 ? "white" : "#393d39",
     transition: "all 1.2s ease",
   };
@@ -86,19 +86,16 @@ const NavbarWrapper = styled.div`
       transition: all 1.2s ease;
     }
   }
-
   a {
     font-size: max(10px, 1vw);
     text-decoration: none;
     position: relative;
     padding: 10px 30px;
     background-color: transparent;
-
     cursor: pointer;
-
     font-weight: 600;
-    :hover {
-      background-color: #fff;
+    &:hover {
+      background-color: #393d39;
     }
     &::before {
       content: "";
