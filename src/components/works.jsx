@@ -92,7 +92,7 @@ function Works() {
   return (
     <WorkWrapper id="works">
       <h1>Works</h1>
-      <h5>List some of my projects here</h5>
+      <h4>List some of my projects here</h4>
       <WorkSubWrapper>
         {works.map((item) => {
           return (
@@ -125,8 +125,9 @@ const WorkWrapper = styled.div`
   h1 {
     margin: 20px;
   }
-  h5 {
+  h4 {
     margin: 0px 20px;
+    font-weight: 400;
   }
 `;
 
@@ -155,6 +156,7 @@ const WorkSubWrapper = styled.div`
     }
     h3 {
       margin: 20px 0;
+      font-weight: 500;
     }
     section {
       margin: 20px;

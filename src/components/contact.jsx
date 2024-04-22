@@ -8,21 +8,21 @@ import { BsMailbox } from "react-icons/bs";
 import { BsFillTelephoneFill } from "react-icons/bs";
 
 const contacts = [
-  {
-    icon: BsFacebook,
-    name: "@Beqa Benidze",
-    link: "https://www.facebook.com/Benidzebeqa.1",
-  },
-  {
-    icon: BsInstagram,
-    name: "@ben1dzebeqa",
-    link: "https://www.instagram.com/ben1dzebeqa/",
-  },
-  {
-    icon: BsLinkedin,
-    name: "@Beqa Benidze",
-    link: "https://www.linkedin.com/in/beqa-benidze-78627b264/",
-  },
+  // {
+  //   icon: BsFacebook,
+  //   name: "@Beqa Benidze",
+  //   link: "https://www.facebook.com/Benidzebeqa.1",
+  // },
+  // {
+  //   icon: BsInstagram,
+  //   name: "@ben1dzebeqa",
+  //   link: "https://www.instagram.com/ben1dzebeqa/",
+  // },
+  // {
+  //   icon: BsLinkedin,
+  //   name: "@Beqa Benidze",
+  //   link: "https://www.linkedin.com/in/beqa-benidze-78627b264/",
+  // },
   {
     icon: BsGithub,
     name: "@Beqa Benidze",
@@ -43,7 +43,7 @@ function Contact() {
   return (
     <ContactWrapper id="Contact">
       <h1>Contact</h1>
-      <h5>Here's how you can reach me out</h5>
+      <h4>Here's how you can reach me out</h4>
       <ContactSubWrapper>
         {contacts.map((item) => {
           return (
@@ -69,8 +69,9 @@ const ContactWrapper = styled.div`
   h1 {
     margin: 20px;
   }
-  h5 {
+  h4 {
     margin: 0px 20px;
+    font-weight: 400;
   }
 `;
 

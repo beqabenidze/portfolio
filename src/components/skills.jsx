@@ -74,7 +74,7 @@ function Skills() {
   return (
     <SkillsWrapper id="Skills">
       <h1>Skills</h1>
-      <h5>Here are some of my skills</h5>
+      <h4>Here are some of my skills</h4>
       <SkillsSubWrapper>
         {skills.map((item) => {
           return (
@@ -96,12 +96,12 @@ const SkillsWrapper = styled.div`
   display: flex;
   flex-direction: column;
   width: 100vw;
-
   h1 {
     margin: 20px;
   }
-  h5 {
+  h4 {
     margin: 0px 20px;
+    font-weight: 400;
   }
 `;
 

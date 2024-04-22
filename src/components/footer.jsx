@@ -6,7 +6,7 @@ function Footer() {
   return (
     <FooterWrapper>
       <h3>
-        Copyright <BiCopyright /> Beqa Benidze. All rights reserved
+        Copyright <BiCopyright /> Beka Benidze. All rights reserved
       </h3>
     </FooterWrapper>
   );
@@ -15,14 +15,12 @@ function Footer() {
 export default Footer;
 
 const FooterWrapper = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 10px;
   width: 100%;
   padding: 20px;
   background-color: #393d39;
   h3 {
     text-align: center;
+    font-weight: 400;
   }
 `;

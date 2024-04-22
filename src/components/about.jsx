@@ -1,6 +1,6 @@
 import React from "react";
 import { styled } from "styled-components";
-import code from "../assets/me.png";
+import code from "../assets/me3.png";
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
       </ImgWrapper>
       <div>
         <h2>Hi, Im</h2>
-        <h1>Beqa Benidze</h1>
+        <h1>Beka Benidze</h1>
         <h3>Forntend developer</h3>
         <p>
           Passionate self-learning developer with expertise in JavaScript, React
@@ -45,8 +45,8 @@ const AboutWrapper = styled.div`
     }
   }
   img {
-    width: 370px;
-    border-radius: 10px;
+    width: 400px;
+    border-radius: 5px;
     transform: skewY(10deg);
   }
   div {
