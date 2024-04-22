@@ -9,7 +9,7 @@ import html from "../assets/html.jpg";
 import css from "../assets/css.png";
 import figma from "../assets/figma.png";
 import git from "../assets/git.png";
-import tailwind from "../assets/tailwind.png";
+import tailwind from "../assets/wind.png";
 import vercel from "../assets/vercel.png";
 
 const skills = [
