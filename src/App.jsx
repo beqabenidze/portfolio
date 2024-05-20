@@ -20,7 +20,7 @@ function App() {
         />
       </Helmet>
       <Routes>
-        <Route path="/portfolio-ihnu.vercel.app" element={<Home />} />
+        <Route path="/portfolio/" element={<Home />} />
       </Routes>
     </ThemeProvider>
   );
