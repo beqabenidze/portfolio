@@ -69,14 +69,16 @@ const NavbarWrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  padding: 10px 100px;
+  padding: 10px 90px;
   width: 80%;
   background-color: #393d39;
   border-radius: 10px;
   position: fixed;
   top: 10px;
   z-index: 3;
-
+  @media only screen and (max-width: 800px) {
+    padding: 10px;
+  }
   div {
     display: flex;
     gap: 20px;
@@ -85,15 +87,22 @@ const NavbarWrapper = styled.div`
       background-color: #393d39;
       transition: all 1.2s ease;
     }
+    @media only screen and (max-width: 800px) {
+      gap: 1px;
+    }
   }
   a {
-    font-size: max(10px, 1vw);
+    font-size: max(18px, 1vw);
     text-decoration: none;
     position: relative;
     padding: 10px 30px;
     background-color: transparent;
     cursor: pointer;
     font-weight: 600;
+    @media only screen and (max-width: 800px) {
+      padding: 10px;
+      font-size: max(14px, 1vw);
+    }
     &:hover {
       background-color: #393d39;
     }
@@ -108,7 +117,6 @@ const NavbarWrapper = styled.div`
       transition: all 1.2s ease;
       z-index: -1;
     }
-
     &:hover::before {
       height: 100%;
       width: 100%;
