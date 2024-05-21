@@ -11,6 +11,7 @@ import figma from "../assets/figma.png";
 import git from "../assets/git.png";
 import tailwind from "../assets/wind.png";
 import vercel from "../assets/vercel.png";
+import mongo from "../assets/Mongo.png";
 
 const skills = [
   {
@@ -37,6 +38,11 @@ const skills = [
     name: "NodeJs",
     src: node,
     info: "Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more.",
+  },
+  {
+    name: "MongoDB",
+    src: mongo,
+    info: "MongoDB is a source-available, cross-platform, document-oriented database program. Classified as a NoSQL database product, MongoDB utilizes JSON-like documents with optional schemas.",
   },
   {
     name: "Vercel",
