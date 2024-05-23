@@ -12,6 +12,7 @@ import FAQ from "../assets/FAQ.png";
 import tictoc from "../assets/tictoc.png";
 import pricing from "../assets/pricing.png";
 import dictionary from "../assets/dictionary.png";
+import Promptopia from "../assets/promptopia.png";
 
 const works = [
   {
@@ -19,6 +20,12 @@ const works = [
     link: "https://beqabenidze.github.io/Kanban/",
     code: "https://github.com/beqabenidze/Kanban",
     img: kanban,
+  },
+  {
+    name: "Promptopia",
+    link: "https://promptopia-smoky-three.vercel.app/",
+    code: "https://github.com/beqabenidze/promptopia",
+    img: Promptopia,
   },
   {
     name: "Dictionary",
